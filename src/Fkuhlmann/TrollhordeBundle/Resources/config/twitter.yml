@@ -1,0 +1,48 @@
+fkuhlmann_trollhorde:
+
+  #getParameter('fkuhlmann_trollhorde.twitter')
+  twitter:
+
+    #getParameter('fkuhlmann_trollhorde.twitter.target')
+    target:
+      owner: "fkuhlmann"
+      owner_id: "FALSE"
+      consumer_key: "MgkIMWKhnIIVsbaPauXou9zSt"
+      consumer_secret: "w4DIieUpuBtAoi0nKwGMegy6vWx4urvXzNcIHG8p4h9wEjc0nv"
+      access_token: "44167852-AfsJR2ubaeupzL5uNYOuzZMoYdql4i1vD64ZKhYj0"
+      access_token_secret: "g6h6ZKP2KGkVjukj8dh4CkXnsAEUuXy4XdeX8OiamZFWw"
+
+    #getParameter('fkuhlmann_trollhorde.twitter.bots')
+    bots:
+
+      bot_1:
+        owner: "theVeryRudeOne"
+        owner_id: "829841249259704320"
+        consumer_key: "Iipzlbd6J0j5IetfPoIVZAwgl"
+        consumer_secret: "Fwc0SgQj1RtaGEiditgW9aTF3VdzjG2i0TIOSVmHy2npIM1MOE"
+        access_token: "829841249259704320-ceTXVIP6ZHghCudL38lzipZocVrONaq"
+        access_token_secret: "3wyHcfwBhE0yZq7Ma8IRkLSDq9WHt58xWjTxBlHaudQVa"
+
+      bot_2:
+        owner: "theVeryFunnyOne"
+        owner_id: "831267750794379268"
+        consumer_key: "MikVcxL7RXyPJzO8AaZXITpzR"
+        consumer_secret: "ZPngxB9VFF91I2AbjPH96N2LrglshLycHa6JkrGehXlw61wpKU"
+        access_token: "831267750794379268-E9yGdftomR6tSC78MjBswFVbMoK5PKC"
+        access_token_secret: "7cjbF9nzpBtKSiRSbRraHqp1HKibOgL6AcYQ1yzqjfQIY"
+
+      bot_3:
+        owner: "theLOLingOne"
+        owner_id: "831272675620356098"
+        consumer_key: "2y8lnm7SDL5NtV4ptKjPNGdRp"
+        consumer_secret: "Y9DBDQooYk4tLhI9vEdie1nkMnWOZlLHw6TvCf2uBt6ZCLDnQT"
+        access_token: "831272675620356098-syEZkpLzdvpxqejXwZQDCtZ9h5XwPoq"
+        access_token_secret: "C0RpBR4VK5McLMxKmGyrPLuAj7KJJkoL0mBG7OxVAHHMU"
+
+      bot_4:
+        owner: "theShoutingOne"
+        owner_id: "831285712989323264"
+        consumer_key: "FHpqJEWimzeM335razWHS9RXA"
+        consumer_secret: "LfKLCOCUCQO5qXAxiwdwMTFllHmPbcP4Qmy2yjGA2GT9SN5imj"
+        access_token: "831285712989323264-eUhZSywzlLqo9LytNvPghCu6WaFzzCw"
+        access_token_secret: "mDH0BWJtIWAa4jMoeyqmkr4dvh3H5sLbTm0lN53Sye8bH"

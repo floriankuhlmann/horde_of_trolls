@@ -1,0 +1,16 @@
+services:
+#    fkuhlmann_trollhorde.example:
+#        class: Fkuhlmann\TrollhordeBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
+
+  fkuhlmann_trollhorde.bot:
+    class: Fkuhlmann\TrollhordeBundle\Models\Bot
+    arguments: ['@service_container']
+
+  fkuhlmann_trollhorde.target:
+    class: Fkuhlmann\TrollhordeBundle\Models\Target
+    arguments: ['@service_container']
+
+  fkuhlmann_trollhorde.horde:
+    class: Fkuhlmann\TrollhordeBundle\Models\Horde
+    arguments: ['@service_container']

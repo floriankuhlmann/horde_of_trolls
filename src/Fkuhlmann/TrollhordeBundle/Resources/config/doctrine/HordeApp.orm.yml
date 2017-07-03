@@ -1,0 +1,20 @@
+Fkuhlmann\TrollhordeBundle\Entity\HordeApp:
+    type: entity
+    table: horde_app
+    repositoryClass: Fkuhlmann\TrollhordeBundle\Repository\HordeAppRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        type:
+            type: string
+            length: 255
+            unique: true
+        value:
+            type: string
+            length: 255
+            nullable: true
+    lifecycleCallbacks: {  }

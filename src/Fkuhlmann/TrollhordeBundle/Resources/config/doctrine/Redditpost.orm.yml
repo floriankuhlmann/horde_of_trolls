@@ -1,0 +1,31 @@
+Fkuhlmann\TrollhordeBundle\Entity\Redditpost:
+    type: entity
+    table: null
+    repositoryClass: Fkuhlmann\TrollhordeBundle\Repository\RedditpostRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        redditid:
+            type: string
+            length: '20'
+        subreddit:
+            type: string
+            length: 255
+        selftext:
+            type: string
+            length: 255
+            nullable: true
+        title:
+            type: string
+            length: 255
+            nullable: true
+        iscomment:
+            type: boolean
+        permalink:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }

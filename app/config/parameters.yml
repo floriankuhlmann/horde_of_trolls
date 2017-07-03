@@ -1,0 +1,12 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: horde_of_trolls
+    database_user: horde_of_trolls
+    database_password: horde_of_trolls
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    secret: 34d5f030a386938156dccf567e789de51ac7de7f

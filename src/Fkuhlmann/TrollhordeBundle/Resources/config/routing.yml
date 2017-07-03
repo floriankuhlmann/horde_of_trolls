@@ -1,0 +1,12 @@
+fkuhlmann_trollhorde_homepage:
+    path:     /
+    defaults: { _controller: FkuhlmannTrollhordeBundle:Default:index }
+
+fkuhlmann_trollhorde_trolltarget:
+    path:     /trolltarget
+    defaults: { _controller: FkuhlmannTrollhordeBundle:Default:trollTarget }
+
+fkuhlmann_trollhorde_redditinsults:
+    path:     /redditdata/{parameter}
+    defaults: { _controller: FkuhlmannTrollhordeBundle:Default:getReddit, parameter: insults }
+
