@@ -6,4 +6,5 @@ a horde of autonomous troll-bots following my accounts, reacting to my tweets, m
 insulting me, laughing about me, talking about my tweets, behaving nasty and unkind.
 
 
-Project is very much beta. do not use the code untill release of version 1.0 :-)
+Project is based on Sympfony 3.0 and very much beta. do not use the code untill release of version 1.0 :-)
+
